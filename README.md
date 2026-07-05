@@ -62,11 +62,11 @@ To flash: hold BOOTSEL on the Tiny2040 while plugging it into USB, then drag bui
 
 ## Project Structure
 
+```bash
 Picoto4Digitdisplay2.c                — GPIO setup, shift-register bit-banging, and display multiplexing logic
 CMakeLists.txt                        — build configuration
 pico_sdk_import.cmake                 — pulls in the Pico SDK
 PicoToFourDigitDisplay-Schematic.png  — circuit schematic
 Tiny2040-Pinout.png                   — Tiny2040 pinout reference
-
-https://github.com/user-attachments/assets/9ca1bfe4-469d-40ac-a018-f60d6633c589
+```
 
